@@ -25,7 +25,7 @@ class Guide
 			user_response = gets.chomp
 			#do that action
 			result = do_action(user_response)
-			#repeat until user_response equal to quit
+			#repeat until user_response equal to (==) quit
 			break if result == :quit
 		end
 		conclusion

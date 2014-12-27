@@ -20,6 +20,7 @@ class Restaurant
  		return false unless @@filepath
  		return false unless File.exists?(@@filepath)
  		return false unless File.readable?(@@filepath)
+ 		#writable not writeable!!!!
  		return false unless File.writable?(@@filepath)
  		return true
 	end	
